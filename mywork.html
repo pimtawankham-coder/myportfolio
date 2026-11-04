@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Work — Your Name</title>
+  <meta name="description" content="Selected projects by Your Name.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=Noto+Sans+Thai:wght@300;400;500&family=Noto+Serif+Thai:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html">Your Name<sup>®</sup></a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="mywork.html" aria-current="page">Work</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- PAGE HEAD -->
+  <section class="page-head">
+    <div class="wrap page-head__grid">
+      <div>
+        <p class="label">Portfolio</p>
+        <h1 class="serif">My <em>work</em></h1>
+      </div>
+      <p>A selection of recent projects across branding, web and photography.</p>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <!-- FILTERS -->
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button class="chip is-active" data-filter="all">All</button>
+      <button class="chip" data-filter="branding">Branding</button>
+      <button class="chip" data-filter="web">Web</button>
+      <button class="chip" data-filter="photography">Photography</button>
+    </div>
+
+    <!-- PROJECTS
+         To use your own image, replace the placeholder div with e.g.
+         <div class="ph r-43"><img src="images/project-01.jpg" alt="Project name"></div>
+         To link to a case study, change href="#" to your page / Behance link. -->
+    <div class="work-grid">
+      <a class="work reveal" data-cat="branding" href="#">
+        <div class="work__top label"><span>01</span><span>2026</span></div>
+        <div class="ph r-43" data-label="Project 01"></div>
+        <div class="card__meta">
+          <h3 class="card__title">Project Name One</h3>
+          <span class="card__cat">Branding</span>
+        </div>
+        <p class="work__desc">One-line description of the project, your role and the outcome.</p>
+      </a>
+
+      <a class="work reveal" data-cat="web" href="#">
+        <div class="work__top label"><span>02</span><span>2025</span></div>
+        <div class="ph ph--sage r-34" data-label="Project 02"></div>
+        <div class="card__meta">
+          <h3 class="card__title">Project Name Two</h3>
+          <span class="card__cat">Web</span>
+        </div>
+        <p class="work__desc">One-line description of the project, your role and the outcome.</p>
+      </a>
+
+      <a class="work reveal" data-cat="photography" href="#">
+        <div class="work__top label"><span>03</span><span>2025</span></div>
+        <div class="ph ph--clay r-45" data-label="Project 03"></div>
+        <div class="card__meta">
+          <h3 class="card__title">Project Name Three</h3>
+          <span class="card__cat">Photography</span>
+        </div>
+        <p class="work__desc">One-line description of the project, your role and the outcome.</p>
+      </a>
+
+      <a class="work reveal" data-cat="branding" href="#">
+        <div class="work__top label"><span>04</span><span>2024</span></div>
+        <div class="ph ph--dark r-43" data-label="Project 04"></div>
+        <div class="card__meta">
+          <h3 class="card__title">Project Name Four</h3>
+          <span class="card__cat">Branding</span>
+        </div>
+        <p class="work__desc">One-line description of the project, your role and the outcome.</p>
+      </a>
+
+      <a class="work reveal" data-cat="web" href="#">
+        <div class="work__top label"><span>05</span><span>2024</span></div>
+        <div class="ph r-43" data-label="Project 05"></div>
+        <div class="card__meta">
+          <h3 class="card__title">Project Name Five</h3>
+          <span class="card__cat">Web</span>
+        </div>
+        <p class="work__desc">One-line description of the project, your role and the outcome.</p>
+      </a>
+
+      <a class="work reveal" data-cat="photography" href="#">
+        <div class="work__top label"><span>06</span><span>2023</span></div>
+        <div class="ph ph--sage r-34" data-label="Project 06"></div>
+        <div class="card__meta">
+          <h3 class="card__title">Project Name Six</h3>
+          <span class="card__cat">Photography</span>
+        </div>
+        <p class="work__desc">One-line description of the project, your role and the outcome.</p>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="label">Let's work together</p>
+    <a class="footer__mail serif" href="mailto:hello@yourname.com">hello@yourname.com</a>
+    <div class="footer__row">
+      <nav class="footer__links" aria-label="Social">
+        <a href="https://www.behance.net/" target="_blank" rel="noopener">Behance</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+      <p class="label">© <span data-year>2026</span> Your Name</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
